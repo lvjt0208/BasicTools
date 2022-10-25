@@ -2,8 +2,8 @@ import os
 from shutil import copy
 
 baseRoot = "T:/blurResult/GoPro"
-filePath = os.path.join(baseRoot, 'RestormerLocal-GoPro', 'visualization', 'gopro-test')
-resultPath = os.path.join(baseRoot, "summary", "RestormerLocal")
+filePath = os.path.join(baseRoot, 'ours', 'DeepRFT', 'GoPro')
+resultPath = os.path.join(baseRoot, "summary", "Ours")
 
 cnt = 0
 if not os.path.exists(resultPath):
